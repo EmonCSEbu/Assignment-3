@@ -37,14 +37,112 @@
     </style>
 </head>
 <body class="font-manrope">
-<header>
+<header class="container mx-auto">
+    <!-- navbar start -->
+    <nav class="mt-[10px] lg:mt-[20px]">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a class="text-primary-color">Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <h2 class="text-2xl font-extrabold lg:text-3xl text-heading-color"><span class="text-primary-color">E</span>-Hockey<span class="text-primary-color">'</span>s</h2>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1 text-base">
+                <li><a class="text-primary-color">Home</a></li>
+                  <li><a>About</a></li>
+                  <li><a>Pages</a></li>
+                  <li><a>Blog</a></li>
+                  <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end flex gap-[48px]">
+                <div class="hidden lg:block">
+                    <svg class="h-6 w-6 text-[#89898B]"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="10" cy="10" r="7" />  <line x1="21" y1="21" x2="15" y2="15" /></svg>
+
+                </div>
+                    <a class="btn text-[#FFF] bg-primary-color lg:px-5 lg:h-[57px] lg:text-xl">Get Ticket</a>
+              
+            </div>
+          </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- banner start -->
+    <div class="carousel lg:w-full h-[200px]  lg:h-[550px] mt-[10px] lg:mt-[20px] lg:relative">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img src="Images/1.png" class="w-full" />
+          <div class="absolute flex justify-center items-center transform -translate-y-1/2 top-[80%] left-[38%] lg:left-8 lg:right-[88%] lg:top-[90%] gap-4">
+            <a href="#slide4" class="btn btn-circle bg-black text-white border-0">❮</a> 
+            <a href="#slide2" class="btn btn-circle bg-black text-white border-0 ">❯</a>
+          </div>
+          <div class="bg-black w-[566px] h-[165px] absolute bottom-8 right-8 p-8 rounded-2xl hidden lg:block">
+            <h2 class="text-white font-extrabold text-2xl pb-2">Meet all the heroes from the field</h2>
+            <p class="text-[#FFFFFF99] font-medium text-[16px]">The heroes of the hockey club may have left the stage, but their legacy lives on, etched in the hearts of fans who have witnessed the magic of their beloved team.</p>
+          </div>
+        </div> 
+
+        <div id="slide2" class="carousel-item relative w-full">
+          <img src="Images/2.png" class="w-full" />
+          <div class="absolute flex justify-center items-center transform -translate-y-1/2 top-[80%] left-[38%] lg:left-8 lg:right-[88%] lg:top-[90%] gap-4">
+            <a href="#slide1" class="btn btn-circle bg-black text-white border-0 ">❮</a> 
+            <a href="#slide3" class="btn btn-circle bg-black text-white border-0 ">❯</a>
+          </div>
+          <div class="bg-black w-[566px] h-[165px] absolute bottom-8 right-8 p-8 rounded-2xl hidden lg:block">
+            <h2 class="text-white font-extrabold text-2xl pb-2">Meet all the heroes from the field</h2>
+            <p class="text-[#FFFFFF99] font-medium text-[16px]">The heroes of the hockey club may have left the stage, but their legacy lives on, etched in the hearts of fans who have witnessed the magic of their beloved team.</p>
+          </div>
+        </div> 
+
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src="Images/3.png" class="w-full" />
+          <div class="absolute flex justify-center items-center transform -translate-y-1/2 top-[80%] left-[38%] lg:left-8 lg:right-[88%] lg:top-[90%] gap-4">
+            <a href="#slide2" class="btn btn-circle bg-black text-white border-0 ">❮</a> 
+            <a href="#slide4" class="btn btn-circle bg-black text-white border-0 ">❯</a>
+          </div>
+          <div class="bg-black w-[566px] h-[165px] absolute bottom-8 right-8 p-8 rounded-2xl hidden lg:block">
+            <h2 class="text-white font-extrabold text-2xl pb-2">Meet all the heroes from the field</h2>
+            <p class="text-[#FFFFFF99] font-medium text-[16px]">The heroes of the hockey club may have left the stage, but their legacy lives on, etched in the hearts of fans who have witnessed the magic of their beloved team.</p>
+          </div>
+        </div> 
+
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src="Images/4.png" class="w-full" />
+          <div class="absolute flex justify-center items-center transform -translate-y-1/2 top-[80%] left-[38%] lg:left-8 lg:right-[88%] lg:top-[90%] gap-4">
+            <a href="#slide3" class="btn btn-circle bg-black text-white border-0 ">❮</a> 
+            <a href="#slide1" class="btn btn-circle bg-black text-white border-0 ">❯</a>
+          </div>
+          <div class="bg-black w-[566px] h-[165px] absolute bottom-8 right-8 p-8 rounded-2xl hidden lg:block">
+            <h2 class="text-white font-extrabold text-2xl pb-2">Meet all the heroes from the field</h2>
+            <p class="text-[#FFFFFF99] font-medium text-[16px]">The heroes of the hockey club may have left the stage, but their legacy lives on, etched in the hearts of fans who have witnessed the magic of their beloved team.</p>
+          </div>
+        </div> 
+      </div>
+
+
+      <!-- Meet all the heroes from the field for small device view-->
+
+      <div class="bg-black w-[88%] h-[145px] mx-auto mt-2 p-4 rounded-2xl block lg:hidden">
+        <h2 class="text-white font-extrabold text-[18px] pb-2">Meet all the heroes from the field</h2>
+        <p class="text-[#FFFFFF99] font-medium text-[14px]">The heroes of the hockey club may have left the stage, but their legacy lives on, etched in the hearts of fans who have witnessed the magic of their beloved team.</p>
+      </div>
+
+<!-- banner end -->
 
 </header>
 <main>
 
 </main>
 <footer>
-    
+
 </footer>
     
 </body>
